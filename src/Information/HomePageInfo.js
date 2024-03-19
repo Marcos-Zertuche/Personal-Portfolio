@@ -1,7 +1,60 @@
+//No image sources yet
+export const aboutMeData = [
+  {
+    summary: "Intro Summary",
+    programminglanguages: [
+      "Python",
+      "C++",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "R",
+      "SQL"
+    ],
+    ml_libraries : [
+      "Keras",
+      "TensorFlow",
+      "PyTorch",
+      "Sci-kit Learn",
+      "Numpy",
+      "Pandas"
+    ],
+    swe_libraries : [
+      "Node.js",
+      "React.js",
+      "AngularJS"
+    ],
+    dataviz_libraries : [
+      "Tableau",
+      "Matplotlib",
+      "Seaborn",
+      "ggplot2"
+    ],
 
-export const aboutData = []
+    roleInterests : ""
+  }
 
-export const experienceData = []
+]
+
+//const ExperienceCard = ({ company, position, location , bullet_points,  duration , focus, technologies }) => {
+//company, position, location , bullet_points,  duration , focus, technologies
+
+export const experienceData = [
+    {
+      id: 1,
+      company: "Bain & Company",
+      postion: "BEL Intern",
+      location: "Dallas, TX",
+      bullet_points : [
+        "Selected as 1 of 18 participants for the prestigious BEL diversity program, gaining hands-on experience as a consultant at Bain & Company",
+        "Utilized Data Science modeling to conduct in-depth market analysis to determine the market size of a domestic industry and assessed the market share of a specific retailer within that industry. Utilized data analysis and data models to organize data to optimize findings for specific business problem.",
+        "Presented findings and research to case team, receiving positive feedback and having work incorporated into slides shared with the CEO for one of the world’s largest retailers"
+      ],
+      duration: "May 2023",
+      focus: "Management Consulting , Data Analytics",
+      technologies: ["Microsoft Excel", "Microsoft PowerPoint"]
+    }
+];
 
 export const projectsData = [
     { 
@@ -53,6 +106,7 @@ export const projectsData = [
   ];
 
 export const extracurricularsData = []  
+
 export const educationData = []
 
 export const contactData = []

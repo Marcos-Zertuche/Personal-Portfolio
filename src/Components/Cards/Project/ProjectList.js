@@ -5,6 +5,7 @@ import ProjectCard from './ProjectCard';
 const ProjectsList = ({ projectsData }) => {
   return (
     <div className="">
+      <h2> Projects </h2>
       {projectsData.map(project => (
         <ProjectCard
           title={project.title}

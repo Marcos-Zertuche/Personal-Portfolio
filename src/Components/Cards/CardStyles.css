@@ -6,3 +6,21 @@
     padding: 20px;
     margin-bottom: 20px;
 }
+
+.experience-card{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about-card{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
