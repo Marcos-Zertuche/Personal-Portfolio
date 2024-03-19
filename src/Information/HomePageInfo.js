@@ -1,7 +1,7 @@
 //No image sources yet
+
 export const aboutMeData = [
   {
-    summary: "Intro Summary",
     programminglanguages: [
       "Python",
       "C++",
@@ -30,14 +30,8 @@ export const aboutMeData = [
       "Seaborn",
       "ggplot2"
     ],
-
-    roleInterests : ""
   }
-
 ]
-
-//const ExperienceCard = ({ company, position, location , bullet_points,  duration , focus, technologies }) => {
-//company, position, location , bullet_points,  duration , focus, technologies
 
 export const experienceData = [
     {

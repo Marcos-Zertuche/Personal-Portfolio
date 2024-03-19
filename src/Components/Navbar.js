@@ -9,12 +9,12 @@ const Navbar = () => {
                     <NavLink to="/" activeStyle>
                         Home
                     </NavLink>
-                    <NavLink to="/ML-Projects" activeStyle>
+                    {/* <NavLink to="/ML-Projects" activeStyle>
                         Machine Learning Projects
-                    </NavLink>
-                    <NavLink to="/JSON-Search-Engine" activeStyle>
+                    </NavLink> */}
+                    {/* <NavLink to="/JSON-Search-Engine" activeStyle>
                         JSON Search Engine
-                    </NavLink>
+                    </NavLink> */}
                 </NavMenu>
             </Nav>
         </>

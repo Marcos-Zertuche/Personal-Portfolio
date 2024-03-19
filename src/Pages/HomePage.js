@@ -1,18 +1,26 @@
 import React from "react";
-import ProjectsList from "../Components/Cards/Project/ProjectList";
 import { projectsData , experienceData , aboutMeData} from "../Information/HomePageInfo"
+import AboutMeCard from "../Components/Cards/AboutMeCard"
 import ExperiencesList from "../Components/Cards/Experience/ExperienceList";
+import ProjectsList from "../Components/Cards/Project/ProjectList";
+import "./HomePage.css"
+
 
 
 const Home = () => {
     return (
-        <div>
+        <div className="home">
             <h1>Welcome to My Portfolio</h1>
-            <h2> About -> Intro Summary, Skills/languages, Statement of interest for roles</h2>
-            
             <div>
+            <section id="about">
+            <AboutMeCard information={aboutMeData}/>
+            </section>
+            <section id="experiences">
             <ExperiencesList experiencesData={experienceData}/>
+            </section>
+            <section id="projects">
             <ProjectsList projectsData={projectsData}/>
+            </section>
             </div>
 
             <h2> Education info</h2>
