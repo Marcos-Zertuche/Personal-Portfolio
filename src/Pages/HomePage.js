@@ -4,6 +4,7 @@ import AboutMeCard from "../Components/Cards/AboutMeCard"
 import ExperiencesList from "../Components/Cards/Experience/ExperienceList";
 import ProjectsList from "../Components/Cards/Project/ProjectList";
 import "./HomePage.css"
+import EducationCard from "../Components/Cards/EducationCard";
 
 
 
@@ -20,6 +21,9 @@ const Home = () => {
             </section>
             <section id="projects">
             <ProjectsList projectsData={projectsData}/>
+            </section>
+            <section id="education">
+            <EducationCard/>
             </section>
             </div>
 
