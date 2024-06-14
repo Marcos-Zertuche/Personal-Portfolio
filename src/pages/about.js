@@ -1,4 +1,4 @@
-export default function MLProjects() {
+export default function About() {
     return (
       <>
         <Head>
